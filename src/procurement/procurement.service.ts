@@ -55,5 +55,4 @@ export class ProcurementService {
         const write = await fs.writeFile('src/procurement/budget.json', tostring)
         return write
     }
-
 }
